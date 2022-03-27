@@ -46,7 +46,7 @@ pub fn execute(
 
 pub fn try_increment(deps: DepsMut) -> Result<Response, ContractError> {
     STATE.update(deps.storage, |mut state| -> Result<_, ContractError> {
-        state.count += 1;
+        state.count += 5;
         Ok(state)
     })?;
 
