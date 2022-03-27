@@ -1,0 +1,9 @@
+// can use `process.env.SECRET_MNEMONIC` or `process.env.SECRET_PRIV_KEY`
+// to populate secret in CI environment instead of hardcoding
+
+module.exports = {
+  testwallet: {
+    mnemonic:
+		"fault liar state fitness deer then latin merry bicycle disease embark usual announce gun artist wide tag size myself soup ozone panic helmet travel",
+  },
+};
